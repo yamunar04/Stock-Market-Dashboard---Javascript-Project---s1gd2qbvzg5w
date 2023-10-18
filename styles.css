@@ -1,1 +1,117 @@
+/* Add your styles here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+.title{
+    font-size: 4rem;
+    text-align: center;
+    left: 28rem;
+    margin: 2rem 5rem 2rem 5rem ;
+    padding: 1rem 2rem;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.input-container {
+    font-size: 2rem;
+    text-align: centre;
+    display: flex;
+    align-items: center;
+    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: lightgray;
+    border-radius: 5px;
+    
+}
+#symbolInput{
+    margin: 4rem;
+    margin-left: 14rem;
+    font-size: large;
+    color: black;
+}
+#timeOptions{
+    margin: 2rem;
+    font-size: large;
+}
+#addStockBtn{
+    margin: 4rem;
+    margin-right: 14rem;
+    font-size: large;
+    background-color: none;
+}
 
+.sub_container{
+    background-color: darkgray;
+    border-radius: 5px;
+    margin: auto 5rem ;
+    text-align: center;
+}
+.watchlist {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.watchlist h3{
+    text-align: center;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    min-width: 200px;
+    border-radius: 5px;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    background-color: darkgray;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.modal-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 80%;
+    border: none;
+}
+.modal button{
+    width: 40%;
+}
+
+td{
+    padding: 0.5rem;
+}

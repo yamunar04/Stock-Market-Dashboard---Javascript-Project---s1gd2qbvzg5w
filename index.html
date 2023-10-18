@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <div class="main_container"> -->
+        <div class="title">Stock Market Dashboard</div>
+        <div class="input-container">
+            <input type="text" id="symbolInput" placeholder="Search for symbol....">
+            <select id="timeOptions">
+                <option value="WEEKLY">WEEKLY</option>
+                <option value="DAILY">DAILY</option>
+                <option value="MONTHLY">MONTHLY</option>
+            </select>
+            
+            <button id="addStockBtn">Add Stock</button>
+        </div>
+        <div class="sub_container">
+            <div id="watchlist" class="watchlist">
+                <h3>Watchlist</h3>
+                <div id="card-container" class="card-container"></div>
+            </div>
+            <div id="modal-container" class="modal-container">
+                <h3>Modal</h3>
+                <div id="modal" class="modal"></div>
+            </div> 
+        </div>
+                    
+        
+    <!-- </div> -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
 
