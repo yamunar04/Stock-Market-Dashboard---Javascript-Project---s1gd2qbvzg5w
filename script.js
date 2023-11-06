@@ -1,6 +1,7 @@
 const API_KEY = 'AXG6NJXXDIDHEXDZ';
 const API_URL = "https://www.alphavantage.co/query";
 const cardContainer = document.getElementById("card-container");
+let dataArr = [];
 
 document.getElementById("addStockBtn").addEventListener("click", addStockToWatchlist);
 
@@ -16,7 +17,7 @@ async function addStockToWatchlist() {
   }
 }
 
-let dataArr = [];
+
 async function fetchStockData(symbol, timeFrame) {
   try {
     const url = `${API_URL}?function=TIME_SERIES_${timeFrame}&symbol=${symbol}&interval=15min&apikey=${API_KEY}`;
